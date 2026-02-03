@@ -1,17 +1,17 @@
 pipeline {
-    agent any (1)
+    agent any 
     stages {
-        stage('Build') { (2)
+        stage('Build') { 
             steps {
                 echo "In Build stage."
             }
         }
-        stage('Test') { (4)
+        stage('Test') { 
             steps {
                 echo "In test stage."
             }
         }
-        stage('Deploy') { (6)
+        stage('Deploy') { 
             steps {
                 echo "In Deploy stage."
             }
